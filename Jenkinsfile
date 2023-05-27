@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage('Hello_Webhook') {
             steps {
-                sh "echo Hello Pipeline from Github to test webhooks and jenkins pipelines!"
+                sh "echo Hello Pipeline from Github to test webhooks and jenkins pipelines! another test"
             }
         }
     }
